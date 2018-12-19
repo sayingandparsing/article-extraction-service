@@ -1,0 +1,1 @@
+{"rustc":5578979137739680495,"features":"[\"default\", \"secure\"]","target":4944179213620976468,"profile":11870183705523825133,"path":2511028302922763650,"deps":[["cc v1.0.27","cc",3925589126595530684],["cmake v0.1.35","cmake",10614337092844094524],["pkg-config v0.3.14","pkg_config",6836091555928675004]],"local":[{"Precalculated":"0.4.1"}],"rustflags":[],"edition":"Edition2015"}

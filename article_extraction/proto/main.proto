@@ -1,0 +1,16 @@
+
+
+message ArticleRequest {
+    required string url = 1;
+}
+
+message ArticleText {
+    required string url = 1;
+    required string content = 2;
+}
+
+service ArticleReader {
+
+    rpc GetArticleText(ArticleRequest) returns (ArticleText);
+
+}

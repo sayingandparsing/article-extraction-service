@@ -1,0 +1,13 @@
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/deps/libnet2-5aa7eeee93f7215a.rlib: /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/lib.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/tcp.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/udp.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/socket.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/ext.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/utils.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/mod.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/impls.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/unix.rs
+
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/deps/net2-5aa7eeee93f7215a.d: /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/lib.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/tcp.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/udp.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/socket.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/ext.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/utils.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/mod.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/impls.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/unix.rs
+
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/lib.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/tcp.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/udp.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/socket.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/ext.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/utils.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/mod.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/impls.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/unix.rs:

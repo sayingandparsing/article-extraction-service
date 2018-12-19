@@ -1,0 +1,775 @@
+Determining if the function res_servicename exists in the resolv failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93cdd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93cdd.dir/build.make CMakeFiles/cmTC_93cdd.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93cdd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=res_servicename -fPIE   -o CMakeFiles/cmTC_93cdd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93cdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93cdd.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=res_servicename    -rdynamic CMakeFiles/cmTC_93cdd.dir/CheckFunctionExists.c.o  -o cmTC_93cdd -lresolv 
+/usr/bin/ld: CMakeFiles/cmTC_93cdd.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.main+0x10): undefined reference to `res_servicename'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_93cdd.dir/build.make:87: cmTC_93cdd] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_93cdd/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the socket failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5864/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5864.dir/build.make CMakeFiles/cmTC_b5864.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5864.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE   -o CMakeFiles/cmTC_b5864.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5864.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_b5864.dir/CheckFunctionExists.c.o  -o cmTC_b5864 -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b5864.dir/build.make:87: cmTC_b5864] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b5864/fast] Error 2
+
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9888d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9888d.dir/build.make CMakeFiles/cmTC_9888d.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9888d.dir/HAVE_SOCKET_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_9888d.dir/HAVE_SOCKET_H.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SOCKET_H.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SOCKET_H.c:2:10: fatal error: socket.h: No such file or directory
+ #include <socket.h>
+          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_9888d.dir/build.make:66: CMakeFiles/cmTC_9888d.dir/HAVE_SOCKET_H.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9888d/fast] Error 2
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;windows.h exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5676/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5676.dir/build.make CMakeFiles/cmTC_d5676.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5676.dir/HAVE_WINSOCK2_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_d5676.dir/HAVE_WINSOCK2_H.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c:2:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d5676.dir/build.make:66: CMakeFiles/cmTC_d5676.dir/HAVE_WINSOCK2_H.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d5676/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;ws2tcpip.h;windows.h exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6020/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6020.dir/build.make CMakeFiles/cmTC_e6020.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6020.dir/HAVE_WS2TCPIP_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_e6020.dir/HAVE_WS2TCPIP_H.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c:2:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e6020.dir/build.make:66: CMakeFiles/cmTC_e6020.dir/HAVE_WS2TCPIP_H.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e6020/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock.h;windows.h exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d233/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d233.dir/build.make CMakeFiles/cmTC_2d233.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d233.dir/HAVE_WINSOCK_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_2d233.dir/HAVE_WINSOCK_H.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK_H.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK_H.c:2:10: fatal error: winsock.h: No such file or directory
+ #include <winsock.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2d233.dir/build.make:66: CMakeFiles/cmTC_2d233.dir/HAVE_WINSOCK_H.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2d233/fast] Error 2
+
+Source:
+/* */
+#include <winsock.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f168/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f168.dir/build.make CMakeFiles/cmTC_5f168.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f168.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_5f168.dir/HAVE_WINDOWS_H.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_5f168.dir/build.make:66: CMakeFiles/cmTC_5f168.dir/HAVE_WINDOWS_H.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5f168/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TYPE_SOCKET failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a637/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a637.dir/build.make CMakeFiles/cmTC_7a637.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a637.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_TYPE_SOCKET -fPIE   -o CMakeFiles/cmTC_7a637.dir/src.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/src.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/src.c:26:4: error: unknown type name ‘SOCKET’; did you mean ‘LOCK_EX’?
+    SOCKET var_exists;
+    ^~~~~~
+    LOCK_EX
+make[1]: *** [CMakeFiles/cmTC_7a637.dir/build.make:66: CMakeFiles/cmTC_7a637.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7a637/fast] Error 2
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			SOCKET var_exists;
+			return 0;
+		}
+	
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bf0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bf0c.dir/build.make CMakeFiles/cmTC_1bf0c.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bf0c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_1bf0c.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘O_NONBLOCK’?
+   return ((int*)(&SO_NONBLOCK))[argc];
+                   ^~~~~~~~~~~
+                   O_NONBLOCK
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_1bf0c.dir/build.make:66: CMakeFiles/cmTC_1bf0c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1bf0c/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bitncmp exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e83c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e83c.dir/build.make CMakeFiles/cmTC_7e83c.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e83c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_7e83c.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘bitncmp’ undeclared (first use in this function); did you mean ‘bcmp’?
+   return ((int*)(&bitncmp))[argc];
+                   ^~~~~~~
+                   bcmp
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_7e83c.dir/build.make:66: CMakeFiles/cmTC_7e83c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7e83c/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closesocket exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d402a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d402a.dir/build.make CMakeFiles/cmTC_d402a.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d402a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_d402a.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘closesocket’ undeclared (first use in this function); did you mean ‘socket’?
+   return ((int*)(&closesocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_d402a.dir/build.make:66: CMakeFiles/cmTC_d402a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d402a/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6f2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6f2d.dir/build.make CMakeFiles/cmTC_e6f2d.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6f2d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_e6f2d.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘CloseSocket’ undeclared (first use in this function); did you mean ‘socket’?
+   return ((int*)(&CloseSocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_e6f2d.dir/build.make:66: CMakeFiles/cmTC_e6f2d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e6f2d/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_net_pton exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbbc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbbc4.dir/build.make CMakeFiles/cmTC_cbbc4.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbbc4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_cbbc4.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cbbc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbbc4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_cbbc4.dir/CheckSymbolExists.c.o  -o cmTC_cbbc4 -lnsl -lrt 
+/usr/bin/ld: CMakeFiles/cmTC_cbbc4.dir/CheckSymbolExists.c.o: undefined reference to symbol 'inet_net_pton@@GLIBC_2.2.5'
+/usr/bin/ld: /usr/lib/libresolv.so.2: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_cbbc4.dir/build.make:87: cmTC_cbbc4] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cbbc4/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctlsocket exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9dd5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9dd5.dir/build.make CMakeFiles/cmTC_d9dd5.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9dd5.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_d9dd5.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘ioctlsocket’ undeclared (first use in this function); did you mean ‘socket’?
+   return ((int*)(&ioctlsocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_d9dd5.dir/build.make:66: CMakeFiles/cmTC_d9dd5.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d9dd5/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctlsocket
+  return ((int*)(&ioctlsocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22774/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22774.dir/build.make CMakeFiles/cmTC_22774.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22774.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_22774.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘IoctlSocket’ undeclared (first use in this function); did you mean ‘clock_t’?
+   return ((int*)(&IoctlSocket))[argc];
+                   ^~~~~~~~~~~
+                   clock_t
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_22774.dir/build.make:66: CMakeFiles/cmTC_22774.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_22774/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6fbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6fbb.dir/build.make CMakeFiles/cmTC_a6fbb.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6fbb.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_a6fbb.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘strcmpi’ undeclared (first use in this function); did you mean ‘strcmp’?
+   return ((int*)(&strcmpi))[argc];
+                   ^~~~~~~
+                   strcmp
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_a6fbb.dir/build.make:66: CMakeFiles/cmTC_a6fbb.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a6fbb/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f468/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f468.dir/build.make CMakeFiles/cmTC_8f468.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f468.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_8f468.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&stricmp))[argc];
+                   ^~~~~~~
+                   strncmp
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_8f468.dir/build.make:66: CMakeFiles/cmTC_8f468.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8f468/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e108/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e108.dir/build.make CMakeFiles/cmTC_1e108.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e108.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_1e108.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘strncmpi’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&strncmpi))[argc];
+                   ^~~~~~~~
+                   strncmp
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_1e108.dir/build.make:66: CMakeFiles/cmTC_1e108.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1e108/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnicmp exist failed with the following output:
+Change Dir: /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc552/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc552.dir/build.make CMakeFiles/cmTC_dc552.dir/build
+make[1]: Entering directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc552.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -ffunction-sections -fdata-sections -fPIC -m64  -fPIE   -o CMakeFiles/cmTC_dc552.dir/CheckSymbolExists.c.o   -c /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘strnicmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&strnicmp))[argc];
+                   ^~~~~~~~
+                   strncmp
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_dc552.dir/build.make:66: CMakeFiles/cmTC_dc552.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dc552/fast] Error 2
+
+File /home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnicmp
+  return ((int*)(&strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

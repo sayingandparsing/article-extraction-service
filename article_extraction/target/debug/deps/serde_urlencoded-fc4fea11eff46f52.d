@@ -1,0 +1,11 @@
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/deps/libserde_urlencoded-fc4fea11eff46f52.rlib: /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs
+
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/deps/serde_urlencoded-fc4fea11eff46f52.d: /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs
+
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs:

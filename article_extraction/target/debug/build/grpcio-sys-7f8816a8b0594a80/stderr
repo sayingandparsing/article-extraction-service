@@ -1,0 +1,18 @@
+CMake Warning at cmake/protobuf.cmake:48 (message):
+  gRPC_PROTOBUF_PROVIDER is "module" but PROTOBUF_ROOT_DIR is wrong
+Call Stack (most recent call first):
+  CMakeLists.txt:118 (include)
+
+
+CMake Warning at cmake/gflags.cmake:26 (message):
+  gRPC_GFLAGS_PROVIDER is "module" but GFLAGS_ROOT_DIR is wrong
+Call Stack (most recent call first):
+  CMakeLists.txt:120 (include)
+
+
+CMake Warning at cmake/benchmark.cmake:26 (message):
+  gRPC_BENCHMARK_PROVIDER is "module" but BENCHMARK_ROOT_DIR is wrong
+Call Stack (most recent call first):
+  CMakeLists.txt:121 (include)
+
+

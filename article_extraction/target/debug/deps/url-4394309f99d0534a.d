@@ -1,0 +1,13 @@
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/deps/liburl-4394309f99d0534a.rlib: /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/lib.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/encoding.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/host.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/origin.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/path_segments.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/parser.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/slicing.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/form_urlencoded.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/quirks.rs
+
+/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/deps/url-4394309f99d0534a.d: /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/lib.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/encoding.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/host.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/origin.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/path_segments.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/parser.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/slicing.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/form_urlencoded.rs /home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/quirks.rs
+
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/lib.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/encoding.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/host.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/origin.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/path_segments.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/parser.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/slicing.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/form_urlencoded.rs:
+/home/reagan/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.2/src/quirks.rs:

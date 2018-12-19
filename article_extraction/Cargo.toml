@@ -1,0 +1,10 @@
+[package]
+name = "article_extraction"
+version = "0.1.0"
+authors = ["Reagan Mitchell <reaganmitchell01@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+readability = "^0"
+grpcio = "0.4"
+protoc-grpcio = "0.3.1"

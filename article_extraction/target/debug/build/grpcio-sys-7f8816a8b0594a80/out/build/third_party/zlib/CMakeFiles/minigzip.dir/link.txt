@@ -1,0 +1,1 @@
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -g  -rdynamic CMakeFiles/minigzip.dir/test/minigzip.o  -o minigzip -Wl,-rpath,/home/reagan/code/proj/abstract-components/article-extraction-service/article_extraction/target/debug/build/grpcio-sys-7f8816a8b0594a80/out/build/third_party/zlib libz.so.1.2.11 
